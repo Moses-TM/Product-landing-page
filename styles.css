@@ -1,0 +1,164 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fresca', sans-serif;
+    min-width: 495px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #947EB0;
+}
+
+/* navigation */
+#header{
+    background-color: #766C7F;
+}
+#header, #nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#header-img{
+    width: 200px;
+    float: left;
+}
+#nav-bar{
+    height: 100px;
+    margin: 5px 8px 0px 0px;
+    align-items: center;
+    background-color: #808D8E;
+    border-radius: 10px;
+}
+#nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#nav-bar li{
+    float: right;
+    flex-wrap: nowrap;
+}
+#nav-bar a{
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Subscription */
+#subscription{
+    background-color: #A3A5C3;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 8px;
+    border-radius: 8px;
+}
+#email{
+    width: calc(100% - 16rem);
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+#getstarted{
+    height: 2rem;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+    border: none;
+    color: white;
+    background-color: rgb(63, 156, 63);
+}
+
+/* Products */
+#products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.products{
+    width: 275px;
+    margin: 8px;
+    padding-top: 4px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+.products img{
+    width: calc(100% - 6px);
+    height: 200px;
+    border-radius: 3px;
+}
+#note{
+    flex: 2;
+}
+
+/* About Us */
+#aboutus{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+iframe{
+    width: 640px;
+    height: 480px;
+}
+@media (max-width: 680px){
+    iframe{
+        width: 480px;
+        height: 240px;
+    }
+}
+@media (max-width: 500px){
+    iframe{
+        width: 320px;
+    }
+}
+
+/* Contact Us */
+#contactus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: #808D8E;
+}
+#logoicon img{
+    height: 100px;
+    float: left;
+}
+#logosocial{
+    display: flex;
+    flex-direction: row;
+}
+#contact{
+    background-color: #808D8E;
+    margin: auto;
+}
+#contact ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#contact li{
+    float: right;
+}
+#contact a{
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+}
+.contacticon{
+    height: 30px;
+}
